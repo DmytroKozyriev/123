@@ -1,0 +1,6 @@
+.echo {
+    border:
+      3px       /* width */
+      solid     /* style */
+      rgb(0, 0, 0);  /* color */
+  }
