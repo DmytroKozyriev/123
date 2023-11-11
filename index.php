@@ -2,7 +2,8 @@
 <html lang="ru">
 
 
-
+<title>Работа в Польше</title>
+<meta name="description" content="Работа в Польше, Вакансии в Польше, вы можете размещать свои объявления, абсолютно бесплатно.">
 
 <head>
   <meta charset="utf-8" />
@@ -15,19 +16,16 @@
   <div class="container">
 
     <header> 
-      <h1 class="name1">Работа в Европе</h1>
+      <h1 class="name1"><a href="https://kamenshchik.pl/">Работа в Европе</a></h1>
 
       <div id="con1">
 
    
- ?>
+      <form name="search" method="post" action="search.php">
+    <input type="search" name="query" placeholder="Поиск">
+    <button type="submit">Найти</button> 
+</form>
 
-<form> method="post">
-  <input type="text" name="search" class="search"><input type="submit" name="submit" value="поиск'>
-
-
-
-  </form>
 
 </div>
 
@@ -37,12 +35,15 @@
 
 
 
-
-
-
-
-
-
+<?php
+    //  вся процедура работает на сессиях. Именно в ней хранятся данные  пользователя, пока он находится на сайте. Очень важно запустить их в  самом начале странички!!!
+    session_start();
+    ?>
+    <html>
+    <head>
+    <title>Главная страница</title>
+    </head>
+    <body>
 
 
 

@@ -22,7 +22,7 @@ $articles = $query->fetchAll();
 
   <ul>
     
-  <li><a href="page.php?id=<?php echo $article['id']; ?>"><?php echo $article['nick']?></a> <span class="font-italic text-muted" posted on <?php echo $article['id']?></span></li>
+  <li><a href="page.php?id=<?php echo $article['id']; ?>"><?php echo $article['nick']?></a><span class="font-italic text-muted" posted on <?php echo $article['id']?></span></li>
 </ul>
 
 <?php } ?>
